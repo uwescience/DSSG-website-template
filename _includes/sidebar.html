@@ -11,11 +11,18 @@
 
     <nav class="sidebar-nav">
       <a class="sidebar-nav-item{% if page.url == site.baseurl %} active{% endif %}" href="{{ site.baseurl }}">Home</a>
-      <a class="sidebar-nav-item {% if page.url == node.url %} active{% endif %}" href="{{ '/motivation' | prepend: site.baseurl }}">Motivation</a>
-      <a class="sidebar-nav-item {% if page.url == node.url %} active{% endif %}" href="{{ '/methods' | prepend: site.baseurl }}">Methods</a>
-      <a class="sidebar-nav-item {% if page.url == node.url %} active{% endif %}" href="{{ '/results' | prepend: site.baseurl }}">Results</a>
+      <a class="sidebar-nav-item {% if page.url == node.url %} active{% endif %}" href="{{ '/intro' | prepend: site.baseurl }}">Introduction</a>
+      <a class="sidebar-nav-item {% if page.url == node.url %} active{% endif %}" href="{{ '/peer_support' | prepend: site.baseurl }}">Peer Support</a>
+      <a class="sidebar-nav-item {% if page.url == node.url %} active{% endif %}" href="{{ '/motivational_interviewing' | prepend: site.baseurl }}">Motivational Interviewing</a>
+      <a class="sidebar-nav-item {% if page.url == node.url %} active{% endif %}" href="{{ '/motivation' | prepend: site.baseurl }}">Project Motivation</a>
+      <a class="sidebar-nav-item {% if page.url == node.url %} active{% endif %}" href="{{ '/descriptives' | prepend: site.baseurl }}">Data Descriptives</a>
+      <a class="sidebar-nav-item {% if page.url == node.url %} active{% endif %}" href="{{ '/methods_and_processes' | prepend: site.baseurl }}">Methods & Processes</a>
+      <a class="sidebar-nav-item {% if page.url == node.url %} active{% endif %}" href="{{ '/analyses_and_conclusions' | prepend: site.baseurl }}">Analyses & Conclusions</a>
+      <a class="sidebar-nav-item {% if page.url == node.url %} active{% endif %}" href="{{ '/limitations_and_concerns' | prepend: site.baseurl }}">Limitations & Concerns</a>
+      <a class="sidebar-nav-item {% if page.url == node.url %} active{% endif %}" href="{{ '/big_picture_takeaways' | prepend: site.baseurl }}">Big Picture Takeaways</a>
+      <a class="sidebar-nav-item {% if page.url == node.url %} active{% endif %}" href="{{ '/ideas_for_further_research' | prepend: site.baseurl }}">Ideas for Further Research</a>
+      <a class="sidebar-nav-item {% if page.url == node.url %} active{% endif %}" href="{{ '/acknowledgements' | prepend: site.baseurl }}">Acknowledgements</a>
       <a class="sidebar-nav-item {% if page.url == node.url %} active{% endif %}" href="{{ '/about' | prepend: site.baseurl }}">About</a>
-      
       
       {% comment %}
         The code below dynamically generates a sidebar nav of pages with
