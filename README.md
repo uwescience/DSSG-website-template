@@ -35,13 +35,13 @@ For simplicity we suggest to create a separate repo for the webpage (separate fr
     git checkout --orphan gh-pages
     
     # preview files to be deleted
-    git rm -rf --dry-run .
+    git rm -rf --dry-r
     
-    # actually delete the files
-    git rm -rf .
+    # actually delete the files (double check you are on the correct branch when doing this step: it is dangerous!!!)
+    git reset --hard
     
-    # get the template
-    git pull https://github.com/uwescience/DSSG-website-template
+    # get the template (from template main branch to your gh-pages branch)
+    git pull https://github.com/uwescience/DSSG-website-template main:gh-pages
     
     # push the local branch to a public branch on github
     git push origin gh-pages 
