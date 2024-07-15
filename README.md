@@ -80,7 +80,7 @@ It is simpler to create a separate repo for the webpage (separate from the code)
 	
 	* feel free to have a different header image relevant to your project
 
-* Some colors and fonts are set in the [`.css file`](https://github.com/uwescience/DSSG-website-template/blob/master/public/css/hyde.css)
+* Some colors and fonts are set in the [`.css file`](https://github.com/uwescience/DSSG-website-template/blob/master/public/css/hyde.css). You can also use the developer tools of your browser to inspect an element and modify its properties. On Chrome, right-click an element on the page and select Inspect to jump into the Elements panel. Or press Command+Option+C (Mac) or Control+Shift+C (Windows, Linux, ChromeOS). 
 	
 * The theme that we are using is called [Hyde](https://github.com/poole/hyde): you can read more details about it below. Feel free to use a different theme ([gh-pages themes](https://pages.github.com/themes/), [Jekyll themes](https://jekyllthemes.io/)), but you will have to figure out how to change it on your own. [Minima](https://jekyll.github.io/minima/about/) is very simplistic theme which can include a blog and be adapted as you wish.
   
