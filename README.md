@@ -35,7 +35,7 @@ It is simpler to create a separate repo for the webpage (separate from the code)
     git checkout --orphan gh-pages
     
     # preview files to be deleted
-    git rm -rf --dry-r
+    git rm -rf --dry-r .
     
     # actually delete the files (double check you are on the correct branch when doing this step: it is dangerous!!!)
     git reset --hard
