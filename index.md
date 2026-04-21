@@ -2,7 +2,7 @@
 layout: default
 ---
 
-<img src="{{ site.url }}{{ site.baseurl }}/assets/img/eScience.png">
+<img src="{{ site.url }}{{ site.baseurl }}/assets/img/eScience.png" alt="eScience Institute logo: Advancing Data-Intensive Discovery in All Fields">
 
 
 # Project Name
